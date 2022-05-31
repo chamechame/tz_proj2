@@ -1,0 +1,18 @@
+
+PUT
+{
+  "gameId": 1,
+  "name": "RedAlert",
+  "company": "WestWood",
+  "genre": "string",
+  "gameGenres": [
+    {
+      "gameId": 1,
+      "genreId": 1
+    }, 
+    {
+      "gameId": 1,
+      "genreId": 2
+    }
+  ]
+}
